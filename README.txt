@@ -1,0 +1,32 @@
+
+
+    UNIVERSIDAD NACIONAL AUTONOMA DE HONDURAS
+    FACULTAD DE CIENCIAS ESPACIALES
+
+
+               #CTE 334 – Desarrollo de Aplicaciones SIG
+
+    # Autor: Diana Vargas
+	#Actividad 06
+
+PASOS QUE SE HOCIERON PARA DESARROLLAR LA ACTIVIDAD.
+Aquí tienes los pasos de manera breve para crear un plugin en QGIS que convierta coordenadas entre DMS y DD:
+
+### 1. Preparar el Entorno
+-Instalar QGIS y asegúrarse de que Python esté configurado.
+- Instalar Qt Designer para crear la interfaz gráfica.
+
+### 2. Crear la Estructura del Plugin
+- Usar el Plugin Builder en QGIS para generar la estructura básica del plugin.
+
+### 3. Diseñar la Interfaz
+- Diseñar la UI con Qt Designer, incluyendo campos para DMS y DD.
+- Convierte el archivo `.ui` a un archivo `.py` con `pyuic5`.
+
+### 4. Implementar la Lógica
+- Editar el archivo principal el plugin para importar la UI y agregar la lógica de conversión entre DMS y DD.
+- Conectar las señales de los widgets a las funciones de conversión.
+
+### 5. Prueba y error
+- Prueba el plugin en QGIS copiando la carpeta del plugin a la carpeta de complementos de QGIS.
+- Depurar cualquier problema usando las herramientas de depuración de Python.
